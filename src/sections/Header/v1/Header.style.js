@@ -48,7 +48,7 @@ const NavWrapper = styled.nav`
     width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;  // space-beetwen 
   }
 
   .gamfi_menu_list {

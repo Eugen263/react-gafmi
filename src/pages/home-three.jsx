@@ -6,12 +6,13 @@ import WalletModal from "components/modal/walletModal/WalletModal";
 import MetamaskModal from "components/modal/metamaskModal/MetamaskModal";
 import Header from "sections/Header/v1";
 import Banner from "sections/Banner/v3";
-import Token from "sections/Token/v1";
-import ExploreProjects from "sections/Projects/v5";
-import Tutorial from "sections/Tutorial/v2";
+// import Token from "sections/Token/v1";
+// import ExploreProjects from "sections/Projects/v5";
+// import Tutorial from "sections/Tutorial/v2";
+import RoadMap from "sections/ProjectPages/ProjectDetails/RoadMap/RoadMap";
 import Features from "sections/Features/v2";
 import Partner from "sections/Partner/v2";
-import Faq from "sections/Faq/v2";
+// import Faq from "sections/Faq/v2";
 import Footer from "sections/Footer/v1";
 
 export default function HomeThree() {
@@ -24,12 +25,13 @@ export default function HomeThree() {
         {metamaskModal && <MetamaskModal />}
         <Header />
         <Banner />
-        <Token />
-        <ExploreProjects />
-        <Tutorial />
+        {/* <Token /> */}
+        {/* <ExploreProjects /> */}
+        {/* <Tutorial /> */}
+        <RoadMap />
         <Features />
         <Partner />
-        <Faq />
+        {/* <Faq /> */}
         <Footer />
       </Layout>
     </Fragment>

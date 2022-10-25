@@ -29,9 +29,9 @@ import Contact from "pages/contact";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<HomeOne />} exact />
+      <Route path="/home-one" element={<HomeOne />} exact />
       <Route path="/home-two" element={<HomeTwo />} />
-      <Route path="/home-three" element={<HomeThree />} />
+      <Route path="/" element={<HomeThree />} />
       <Route path="/projects-list" element={<ProjectsList />} />
       <Route path="/projects-classic-1" element={<ProjectsClassic />} />
       <Route path="/projects-grid" element={<ProjectsGrid />} />

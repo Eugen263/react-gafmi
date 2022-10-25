@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const RoadMapStyleWrapper = styled.div`
-  margin-bottom: 55px;
+  margin: 55px 0;
 
   .widget_title {
     margin-bottom: 15px;

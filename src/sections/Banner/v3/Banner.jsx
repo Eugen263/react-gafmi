@@ -1,6 +1,5 @@
 import Counter from "components/counter";
-import Button from "components/button";
-
+// import Button from "components/button";
 import rocketThumb from "assets/images/homeV3/animition_avater.png";
 import dollorIcon from "assets/images/icons/dollar-dollar-color.svg"
 import rocketIcon from "assets/images/icons/rocket-dynamic-color.svg"
@@ -23,14 +22,14 @@ const Banner = () => {
                 <p>
                   The next generation gaming ecosystem for IGOs and NFT market Secure crypto solutions by blockchain technology
                 </p>
-                <div className="banner-btns">
+                {/* <div className="banner-btns">
                   <Button href="/projects-classic-1" md variant="mint">
                     View Projects
                   </Button>
                   <Button href="/igo-apply" md variant="outline">
                     Apply Project
                   </Button>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-md-6">

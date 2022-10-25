@@ -18,7 +18,7 @@ const BannerStyleWrapper = styled.section`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 250px 0;
+  padding: 250px 0px 100px 0px; // 250px 0 
   overflow: hidden;
 
   .ufo_shape {
