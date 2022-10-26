@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  dagon-front:
+    container_name: nfn_staging_front
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3025:3025
+    command: npm run serv
+    volumes:
+      - .:/app/nfn_staging_front
