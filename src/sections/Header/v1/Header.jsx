@@ -89,9 +89,9 @@ const Header = () => {
               </ul>
             </div> */}
             <div className="gamfi_menu_btns">
-              <button className="menu_btn" onClick={() => handleMobileMenu()}>
+              {/* <button className="menu_btn" onClick={() => handleMobileMenu()}>
                 <MdNotes />
-              </button>
+              </button> */}
 
               {/* <div className="wallet_btn">
                 Buy token <MdOutlineKeyboardArrowDown />
