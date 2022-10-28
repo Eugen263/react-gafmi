@@ -1,7 +1,7 @@
 import { useModal } from "utils/ModalContext";
 import { FiX, FiChevronRight } from "react-icons/fi";
 import WalletModalStyleWrapper from "./WalletModal.style";
-import { isMetaMaskInstalled, connectWallet } from "lib/metamaskhandler";
+import { isMetaMaskInstalled } from "lib/metamaskhandler";
 import metamaskIcon from "assets/images/icons/meta-mask.png";
 import coinBase from "assets/images/icons/coinbase.png";
 import trustWalletIcon from "assets/images/icons/trust.png";
@@ -15,7 +15,7 @@ const WalletModal = () => {
     if (!isMetaMaskInstalled()) {
       handleMetamaskModal();
     } else {
-      const account = await connectWallet();
+      // const account = await connectWallet();
     }
   }
 
