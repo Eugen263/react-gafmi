@@ -20,7 +20,7 @@ const MetamaskModal = () => {
             </div>
             <div className="modal_body text-center">
               <div className="wallet_list">
-                <a href="https://metamask.io/download/" target="_blank">
+                <a href="https://metamask.io/download/"  target="_blank">
                   <img src={metamaskIcon} alt="Meta-mask-Image" />
                   MetaMask
                   <span>
@@ -30,8 +30,8 @@ const MetamaskModal = () => {
               </div>
               <div className="modal_bottom_text">
                 By connecting your wallet, you agree to our
-                <a href="# ">Terms of Service</a>
-                <a href="#">Privacy Policy</a>
+                <a href="/">Terms of Service</a>
+                <a href="/">Privacy Policy</a>
               </div>
             </div>
           </div>
