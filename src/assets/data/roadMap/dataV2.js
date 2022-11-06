@@ -3,93 +3,95 @@ import minusIcon from "assets/images/kycimg/munies.svg";
 
 const data = [
   {
-    title: "Q1 2021",
-    isLunched: true,
-    checkList: [
-      {
-        icon: checkIcon,
-        text: "Launch on GamFi",
-      },
-      {
-        icon: checkIcon,
-        text: "Seed round",
-      },
-      {
-        icon: checkIcon,
-        text: "Listing on CEX",
-      },
-      {
-        icon: checkIcon,
-        text: "Development of NFT Marketplace",
-      },
-    ],
-  },
-  {
-    title: "Q2 2021",
-    isLunched: true,
-    checkList: [
-      {
-        icon: checkIcon,
-        text: "First NFT pre-orders",
-      },
-      {
-        icon: checkIcon,
-        text: "Launch of the GAME coin",
-      },
-      {
-        icon: checkIcon,
-        text: "Full-scale platform launch",
-      },
-    ],
-  },
-  {
-    title: "Q1 2022",
-    isLunched: true,
-    checkList: [
-      {
-        icon: checkIcon,
-        text: "Launch on GamFi",
-      },
-      {
-        icon: checkIcon,
-        text: "Auction system integration",
-      },
-      {
-        icon: minusIcon,
-        text: "Mobile app for iOS and Android",
-      },
-      {
-        icon: minusIcon,
-        text: "Development of NFT Marketplace",
-      },
-      {
-        icon: minusIcon,
-        text: "Game launch",
-      },
-    ],
-  },
-  {
-    title: "Q2 2022",
+    title: "Q4 2022",
     isLunched: false,
     checkList: [
       {
         icon: minusIcon,
-        text: "Application for crypto exchange",
+        text: "Launch on test net",
+      }
+    ],
+  },
+  {
+    title: "Q2 2023",
+    isLunched: false,
+    checkList: [
+      {
+        icon: minusIcon,
+        text: "Launch on BSC",
       },
       {
         icon: minusIcon,
-        text: "Private round",
+        text: "Start sale",
       },
       {
         icon: minusIcon,
-        text: "New team member added",
+        text: "Bridge to Polygon",
       },
       {
         icon: minusIcon,
-        text: "Team expansion",
+        text: "Partners integration"
+      }
+    ],
+  },
+  {
+    title: "Q2 2023",
+    isLunched: false,
+    checkList: [
+      {
+        icon: minusIcon,
+        text: "Partners integration",
+      },
+      {
+        icon: minusIcon,
+        text: "Integration and bridge to TON",
+      },
+      {
+        icon: minusIcon,
+        text: "Token private round sale",
+      },
+      {
+        icon: minusIcon,
+        text: "Marketplace development",
+      }
+    ],
+  },
+  {
+    title: "Q3 2022",
+    isLunched: false,
+    checkList: [
+      {
+        icon: minusIcon,
+        text: "Token public round sale",
+      },
+      {
+        icon: minusIcon,
+        text: "Launch marketplace",
+      },
+      {
+        icon: minusIcon,
+        text: "Bridge to Solana",
+      },
+      {
+        icon: minusIcon,
+        text: "Listing token on DEX",
       },
     ],
   },
+  {
+    title: "Q4 2023",
+    isLunched: false,
+    checkList: [
+      {
+        icon: minusIcon,
+        text: "Listing token on DEX",
+      },
+      {
+        icon: minusIcon,
+        text: "Added Cross-Chain features to marketplace"
+      }
+    ],
+  }
 ];
 
 export default data;
