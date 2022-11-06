@@ -7,22 +7,22 @@ const data = [
   {
     icon: thumb1,
     title: "Decentralized",
-    text: "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing",
+    text: "You nickname become decentralized on-chain NFT data.",
   },
   {
     icon: thumb2,
     title: "Secure Bridge",
-    text: "But I must explain to you how all this mistaken idea of new gem denouncing pleasure and praising pain",
+    text: "By secured bridges you can transfer your nickname by blockchains you need.",
   },
   {
     icon: thumb3,
-    title: "Fair Allocations",
-    text: "When our power of choice is untrammelled and when nothing prevents our being able to do what we like best",
+    title: "Games and Social networks",
+    text: "Every day launched a lot of blockchain project and a lot of projects will become to use blockchain. Imagine that you can use your nickname is games like WoW and services like Twitter and Instagram. And only you will be onwer for your nickcname.",
   },
   {
     icon: thumb4,
-    title: "Autopilot Liquidity",
-    text: "But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently",
+    title: "Auction",
+    text: "You can earn some money with you unique nickname by selling in on the marketplace or giv to rent your nick.",
   },
 ];
 

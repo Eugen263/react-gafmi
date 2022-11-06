@@ -3,19 +3,23 @@ import { FiX, FiChevronRight } from "react-icons/fi";
 import WalletModalStyleWrapper from "./WalletModal.style";
 import { isMetaMaskInstalled } from "lib/metamaskhandler";
 import metamaskIcon from "assets/images/icons/meta-mask.png";
-import coinBase from "assets/images/icons/coinbase.png";
-import trustWalletIcon from "assets/images/icons/trust.png";
-import walletConnect from "assets/images/icons/wallet.png";
+import { ethers } from "ethers";
+
 
 const WalletModal = () => {
   const { walletModalHandle, handleMetamaskModal } = useModal();
 
+  const connectWallet = async () => {
+    const provider = new ethers.providers.Web3Provider(window.ethereum)
+    await provider.send("eth_requestAccounts", []); 
+  }
+  
   const handleMetamask = async (e) => {
     e.preventDefault()
     if (!isMetaMaskInstalled()) {
       handleMetamaskModal();
     } else {
-      // const account = await connectWallet();
+      const account = await connectWallet() ;
     }
   }
 
@@ -38,27 +42,6 @@ const WalletModal = () => {
                 <a href="#" onClick={(e) => handleMetamask(e)}>
                   <img src={metamaskIcon} alt="Meta-mask-Image" />
                   MetaMask
-                  <span>
-                    <FiChevronRight />
-                  </span>
-                </a>
-                <a href="# ">
-                  <img src={coinBase} alt="Coinbase-Image" />
-                  Coinbase
-                  <span>
-                    <FiChevronRight />
-                  </span>
-                </a>
-                <a href="# ">
-                  <img src={trustWalletIcon} alt="Trust-Image" />
-                  Trust Wallet
-                  <span>
-                    <FiChevronRight />
-                  </span>
-                </a>
-                <a href="# ">
-                  <img src={walletConnect} alt="Wallet-Image" />
-                  WalletConnect
                   <span>
                     <FiChevronRight />
                   </span>

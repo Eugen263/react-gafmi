@@ -1,11 +1,9 @@
-import Counter from "components/counter/Counter";
-import Button from "components/button/Button";
-import rocketThumb from "assets/images/homeV3/animition_avater.png";
-import dollorIcon from "assets/images/icons/dollar-dollar-color.svg"
-import rocketIcon from "assets/images/icons/rocket-dynamic-color.svg"
+import Counter from "components/counter/Counter"
+import Button from "components/button/Button"
+import rocketThumb from "assets/images/homeV3/animition_avater.png"
 import ufoShape from "assets/images/homeV3/uFO.png"
+import BannerStyleWrapper from "./Banner.style"
 
-import BannerStyleWrapper from "./Banner.style";
 const Banner = () => {
   return (
     <>
@@ -14,18 +12,12 @@ const Banner = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="gamfi_v2_hero_left">
-                <h2>METAVERSE <br /> PLAY-TO
-                  <img className="title_icon" src={dollorIcon} alt="icon" />
-                  EARN IGO Launchpad
-                  <img className="title_icon rocket_icon" src={rocketIcon} alt="icon" />
-                </h2>
-                <p>
-                  The next generation gaming ecosystem for IGOs and NFT market Secure crypto solutions by blockchain technology
-                </p>
+                <h2>YOUR CROSS-CHAIN <br /> PROTECTED UNIQUE NICKNAME</h2>
+                <p>From now your nickcname will be with you.</p>
                 <div className="banner-btns">
-                  <input type="email" id="email" placeholder="Enter your email address" className="form-control" />
+                  <input type="email" id="email" placeholder="Enter you nickname" className="form-control" />
                   <Button href="/projects-classic-1" md variant="mint">
-                    SUBMIT
+                    MINT
                   </Button>
                 </div>
               </div>
@@ -40,7 +32,7 @@ const Banner = () => {
 
                 <ul className="coin_cap_list">
                   <li>
-                    <h5>Market Cap</h5>
+                    <h5>Minted nicknames</h5>
                     <h6 className="counter-number">$
                       <Counter
                         end={490.88}
@@ -49,7 +41,10 @@ const Banner = () => {
                         suffix="M"
                       /></h6>
                   </li>
-                  <li>
+
+                  {/* hidden at the request of the customer 05.11.2022 */}
+
+                  {/* <li>
                     <h5>TVL</h5>
                     <h6 className="counter-number">$
                       <Counter
@@ -58,7 +53,7 @@ const Banner = () => {
                         decimals={490.88 % 1 !== 0 ? "2" : "0"}
                         suffix="M"
                       /></h6>
-                  </li>
+                  </li>                                                           
                   <li className="m-0">
                     <h5>Fund Raised</h5>
                     <h6 className="counter-number">$
@@ -68,7 +63,9 @@ const Banner = () => {
                         decimals={490.88 % 1 !== 0 ? "2" : "0"}
                         suffix="M"
                       /> </h6>
-                  </li>
+                  </li> */}
+
+
                 </ul>
               </div>
             </div>
