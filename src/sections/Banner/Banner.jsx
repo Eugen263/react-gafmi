@@ -13,9 +13,9 @@ const Banner = () => {
             <div className="col-md-6">
               <div className="gamfi_v2_hero_left">
                 <h2>YOUR CROSS-CHAIN <br /> PROTECTED UNIQUE NICKNAME</h2>
-                <p>From now your nickcname will be with you.</p>
+                <p>From now your nickname will be with you.</p>
                 <div className="banner-btns">
-                  <input type="email" id="email" placeholder="Enter you nickname" className="form-control" />
+                  <input id="email" placeholder="Enter you nickname" className="form-control" />
                   <Button href="/projects-classic-1" md variant="mint">
                     MINT
                   </Button>
