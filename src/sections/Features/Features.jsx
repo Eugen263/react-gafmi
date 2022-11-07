@@ -4,7 +4,7 @@ import data from "assets/data/about/aboutDataV1"
 
 const Features = () => {
     return (
-        <FeaturesStyleWrapper>
+        <FeaturesStyleWrapper id="features">
             <div className="key_points_section main-project-area">
                 <div className="container">
                     <div className="sec-inner align-items-center">

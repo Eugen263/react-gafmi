@@ -13,31 +13,20 @@ const FooterBottom = () => {
             {" "}
             <img src={footerLogo} alt="footer logo" />{" "}
           </a>
-
-          {/* <ul className="footer-menu">
+          <ul className="footer-menu">
             <li>
-              <a href="# ">Features</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="# ">How it works</a>
+              <a href="#features">Features</a>
             </li>
             <li>
-              <a href="# ">Token info</a>
+              <a href="#roadmap">Roadmap</a>
             </li>
             <li>
-              <a href="# ">About us</a>
+              <a href="#partners">Partners</a>
             </li>
-            <li>
-              <a href="# ">Social media</a>
-            </li>
-            <li>
-              <a href="# ">Terms of Service</a>
-            </li>
-            <li>
-              <a href="# ">Privacy Policy</a>
-            </li>
-          </ul> */}
-
+          </ul>
           <div className="copyright-text">
             Copyright © 2022. All Rights Reserved by
             <a href="# " target="_blank">GaFi</a>

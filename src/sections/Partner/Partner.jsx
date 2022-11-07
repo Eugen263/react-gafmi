@@ -8,7 +8,7 @@ import data from "assets/data/partner/dataV2";
 
 const Partner = () => {
   return (
-    <PartnerStyleWrapper>
+    <PartnerStyleWrapper id="partners">
       <div className="container">
         <SectionTitle title="OUR PARTNERS" subtitle="OUR PARTNERS" />
         <Tabs>
