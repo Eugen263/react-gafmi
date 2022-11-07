@@ -1,9 +1,10 @@
 import { useModal } from "utils/ModalContext";
+import { ethers } from "ethers";
 import { FiX, FiChevronRight } from "react-icons/fi";
 import WalletModalStyleWrapper from "./WalletModal.style";
 import { isMetaMaskInstalled } from "lib/metamaskhandler";
 import metamaskIcon from "assets/images/icons/meta-mask.png";
-import { ethers } from "ethers";
+
 
 
 const WalletModal = () => {

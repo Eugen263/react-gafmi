@@ -70,7 +70,7 @@ const BannerStyleWrapper = styled.section`
     display: flex;
     align-items: center;
     column-gap: 30px;
-    margin-top: 60px;
+    // margin-top: 80px;
   }
 
   .gamfi_v2_hero_right {
@@ -84,31 +84,6 @@ const BannerStyleWrapper = styled.section`
         position: relative;
         animation: ${rocketAnimation} 5s infinite;
         z-index: 1;
-      }
-    }
-
-    .coin_cap_list {
-      display: flex;
-      justify-content: space-between;
-      li {
-        width: 33%;
-
-        h5 {
-          line-height: 40px;
-          color: #ffffff;
-          margin-bottom: 0px;
-          font-size: 16px;
-        }
-
-        .counter-number {
-          font-family: "Russo One";
-          font-style: normal;
-          font-weight: normal;
-          font-size: 22px;
-          line-height: 40px;
-          text-transform: uppercase;
-          color: #6d4afe;
-        }
       }
     }
   }
@@ -147,6 +122,32 @@ const BannerStyleWrapper = styled.section`
     }
   }
 
+  .coin_cap_list {
+    display: flex;
+    justify-content: space-between;
+    li {
+      width: 33%;
+
+      h5 {
+        line-height: 40px;
+        color: #ffffff;
+        margin-top: 9px;
+        margin-bottom: 0px;
+        font-size: 16px;
+      }
+
+      .counter-number {
+        font-family: "Russo One";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #6d4afe;
+      }
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     .gamfi_v2_hero_left {
       .rocket_icon {
@@ -157,9 +158,6 @@ const BannerStyleWrapper = styled.section`
   @media only screen and (max-width: 766px) {
     .gamfi_v2_hero_right {
       margin-top: 50px;
-      .coin_cap_list {
-        margin-top: 30px;
-      }
     }
   }
   @media only screen and (max-width: 575px) {
@@ -177,7 +175,7 @@ const BannerStyleWrapper = styled.section`
     }
   }
   @media only screen and (max-width: 320px) {
-    .gamfi_v2_hero_right .coin_cap_list li h5 {
+    .coin_cap_list li h5 {
       font-size: 14px;
     }
     
