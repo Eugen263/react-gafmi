@@ -34,7 +34,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <>
+    <div id="home">
       <BannerStyleWrapper>
         <div className="container">
           <div className="row">
@@ -138,7 +138,7 @@ const Banner = () => {
 
         <img src={ufoShape} alt="ufo shape" className="ufo_shape" />
       </BannerStyleWrapper>
-    </>
+    </div>
   );
 };
 

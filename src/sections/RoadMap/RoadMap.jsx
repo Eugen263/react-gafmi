@@ -3,7 +3,7 @@ import data from "assets/data/roadMap/dataV2"
 
 const RoadMap = () => {
     return (
-        <>
+        <div id="roadmap">
             <div className="container">
                 <RoadMapStyleWrapper id="roadmap">
                     <h2 className="widget_title">Roadmap</h2>
@@ -26,7 +26,7 @@ const RoadMap = () => {
                     </div>
                 </RoadMapStyleWrapper>
             </div>
-        </>
+        </div>
     )
 }
 
