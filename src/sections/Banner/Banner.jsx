@@ -4,7 +4,6 @@ import Counter from "components/counter/Counter"
 import Button from "components/button/Button"
 import rocketThumb from "assets/images/homeV3/animition_avater.png"
 import ufoShape from "assets/images/homeV3/uFO.png"
-import connectIcon from "assets/images/icons/connect.png"
 import BannerStyleWrapper from "./Banner.style"
 
 const Banner = () => {
@@ -102,21 +101,14 @@ const Banner = () => {
             <div className="col-md-6">
               {currentAccount.length > 0 ? (
                 <form onSubmit={(e) => {e.preventDefault()}}>
-                  <div className="banner-btns">
+                  <div className="banner-btns anim">
                       <input id="email" placeholder="Enter you nickname" className="form-control" />
                       <Button href="#" md variant="mint">
                         MINT
                       </Button>
                   </div>
                 </form>
-              ) : (
-                <div className="gamfi_menu_btns">
-                  <Button href="#" sm variant="white" className="connect_btn" onClick={e => handleWalletBtn(e)}>
-                    <img src={connectIcon} alt="icon" />
-                    Connect
-                  </Button>
-                </div>
-                )
+              ) : (<></>)
               }
             </div>
             <div className="col-md-6">
