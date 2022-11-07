@@ -14,7 +14,7 @@ const FooterBottom = () => {
             <img src={footerLogo} alt="footer logo" />{" "}
           </a>
 
-          <ul className="footer-menu">
+          {/* <ul className="footer-menu">
             <li>
               <a href="# ">Features</a>
             </li>
@@ -36,7 +36,7 @@ const FooterBottom = () => {
             <li>
               <a href="# ">Privacy Policy</a>
             </li>
-          </ul>
+          </ul> */}
 
           <div className="copyright-text">
             Copyright © 2022. All Rights Reserved by

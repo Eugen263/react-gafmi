@@ -14,6 +14,7 @@ import '../assets/styles/GlobalStyles.css'
 
 export default function Home() {
   const { walletModalvisibility, metamaskModal } = useModal();
+
   return (
     <Fragment>
       <Layout>
