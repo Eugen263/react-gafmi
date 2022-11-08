@@ -1,189 +1,43 @@
-import checkIcon from "assets/images/kycimg/RMcheckicon.svg";
+// import checkIcon from "assets/images/kycimg/RMcheckicon.svg";
 import minusIcon from "assets/images/kycimg/munies.svg";
 
 export default {
   data: [
     {
-      year: "2021",
-      items: [
-        {
-          title: "Q1 2021",
-          isLunched: true,
-          checkList: [
-            {
-              icon: checkIcon,
-              text: "Seed Sale",
-            },
-            {
-              icon: checkIcon,
-              text: "IDO & Token DEX Listing",
-            },
-            {
-              icon: checkIcon,
-              text: "Contract Audit",
-            },
-            {
-              icon: checkIcon,
-              text: "Staking",
-            },
-            {
-              icon: checkIcon,
-              text: "Integration of POLYGON",
-            },
-          ],
-        },
-        {
-          title: "Q2 2021",
-          isLunched: true,
-          checkList: [
-            {
-              icon: checkIcon,
-              text: "Launch on GamFi",
-            },
-            {
-              icon: checkIcon,
-              text: "Auction system integration.",
-            },
-            {
-              icon: checkIcon,
-              text: "Mobile app for iOS and Android",
-            },
-            {
-              icon: minusIcon,
-              text: "Development of NFT Marketplace",
-            },
-            {
-              icon: minusIcon,
-              text: "Game launch",
-            },
-            {
-              icon: minusIcon,
-              text: "Website with MVP Release",
-            },
-          ],
-        },
-        {
-          title: "Q3 2021",
-          isLunched: true,
-          checkList: [
-            {
-              icon: checkIcon,
-              text: "Launch on GamFi",
-            },
-            {
-              icon: checkIcon,
-              text: "Auction system integration",
-            },
-            {
-              icon: checkIcon,
-              text: "Mobile app for iOS and Android",
-            },
-            {
-              icon: minusIcon,
-              text: "Development of NFT Marketplace",
-            },
-            {
-              icon: minusIcon,
-              text: "Game launch",
-            },
-            {
-              icon: minusIcon,
-              text: "Website with MVP Release",
-            },
-          ],
-        },
-      ],
-    },
-
-    {
       year: "2022",
       items: [
-        {
-          title: "Q1 2022",
-          isLunched: true,
-          checkList: [
-            {
-              icon: checkIcon,
-              text: "Seed Sale",
-            },
-            {
-              icon: checkIcon,
-              text: "IDO & Token DEX Listing",
-            },
-            {
-              icon: checkIcon,
-              text: "Contract Audit",
-            },
-            {
-              icon: checkIcon,
-              text: "Staking",
-            },
-            {
-              icon: checkIcon,
-              text: "Integration of POLYGON",
-            },
-          ],
-        },
-        {
-          title: "Q2 2022",
-          isLunched: true,
-          checkList: [
-            {
-              icon: checkIcon,
-              text: "Launch on GamFi",
-            },
-            {
-              icon: checkIcon,
-              text: "Auction system integration.",
-            },
-            {
-              icon: checkIcon,
-              text: "Mobile app for iOS and Android",
-            },
-            {
-              icon: minusIcon,
-              text: "Development of NFT Marketplace",
-            },
-            {
-              icon: minusIcon,
-              text: "Game launch",
-            },
-            {
-              icon: minusIcon,
-              text: "Website with MVP Release",
-            },
-          ],
-        },
         {
           title: "Q3 2022",
           isLunched: false,
           checkList: [
             {
-              icon: checkIcon,
-              text: "Launch on GamFi",
-            },
-            {
-              icon: checkIcon,
-              text: "Auction system integration",
-            },
-            {
-              icon: checkIcon,
-              text: "Mobile app for iOS and Android",
+              icon: minusIcon,
+              text: "Token public round sale",
             },
             {
               icon: minusIcon,
-              text: "Development of NFT Marketplace",
+              text: "Launch marketplace",
             },
             {
               icon: minusIcon,
-              text: "Game launch",
+              text: "Bridge to Solana",
             },
             {
               icon: minusIcon,
-              text: "Website with MVP Release",
-            },
+              text: "Listing token on DEX",
+            }
           ],
         },
+        {
+          title: "Q4 2022",
+          isLunched: false,
+          checkList: [
+            {
+              icon: minusIcon,
+              text: "Launch on Test Net",
+            }
+          ],
+        }
       ],
     },
     {
@@ -194,25 +48,21 @@ export default {
           isLunched: false,
           checkList: [
             {
-              icon: checkIcon,
-              text: "Seed Sale",
+              icon: minusIcon,
+              text: "Launch on BSC",
             },
             {
-              icon: checkIcon,
-              text: "IDO & Token DEX Listing",
+              icon: minusIcon,
+              text: "Start sale",
             },
             {
-              icon: checkIcon,
-              text: "Contract Audit",
+              icon: minusIcon,
+              text: "Bridge to Polygon",
             },
             {
-              icon: checkIcon,
-              text: "Staking",
-            },
-            {
-              icon: checkIcon,
-              text: "Integration of POLYGON",
-            },
+              icon: minusIcon,
+              text: "Partners integration",
+            }
           ],
         },
         {
@@ -220,29 +70,21 @@ export default {
           isLunched: false,
           checkList: [
             {
-              icon: checkIcon,
-              text: "Launch on GamFi",
-            },
-            {
-              icon: checkIcon,
-              text: "Auction system integration.",
-            },
-            {
-              icon: checkIcon,
-              text: "Mobile app for iOS and Android",
+              icon: minusIcon,
+              text: "Partners integration",
             },
             {
               icon: minusIcon,
-              text: "Development of NFT Marketplace",
+              text: "Integration and bridge to TON",
             },
             {
               icon: minusIcon,
-              text: "Game launch",
+              text: "Token private round sale",
             },
             {
               icon: minusIcon,
-              text: "Website with MVP Release",
-            },
+              text: "Marketplace development",
+            }
           ],
         },
         {
@@ -250,32 +92,38 @@ export default {
           isLunched: false,
           checkList: [
             {
-              icon: checkIcon,
-              text: "Launch on GamFi",
-            },
-            {
-              icon: checkIcon,
-              text: "Auction system integration",
-            },
-            {
-              icon: checkIcon,
-              text: "Mobile app for iOS and Android",
+              icon: minusIcon,
+              text: "Token public round sale",
             },
             {
               icon: minusIcon,
-              text: "Development of NFT Marketplace",
+              text: "Launch marketplace",
             },
             {
               icon: minusIcon,
-              text: "Game launch",
+              text: "Bridge to Solana",
             },
             {
               icon: minusIcon,
-              text: "Website with MVP Release",
-            },
+              text: "Listing token on DEX",
+            }
           ],
         },
-      ],
-    },
-  ],
+        {
+          title: "Q4 2023",
+          isLunched: false,
+          checkList: [
+            {
+              icon: minusIcon,
+              text: "Listing token on DEX"
+            },
+            {
+              icon: minusIcon,
+              text: "Added Cross-Chain features to marketplace"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 };
