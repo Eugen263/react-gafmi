@@ -7,37 +7,23 @@ export default {
       year: "2022",
       items: [
         {
-          title: "Q3 2022",
-          isLunched: false,
-          checkList: [
-            {
-              icon: minusIcon,
-              text: "Token public round sale",
-            },
-            {
-              icon: minusIcon,
-              text: "Launch marketplace",
-            },
-            {
-              icon: minusIcon,
-              text: "Bridge to Solana",
-            },
-            {
-              icon: minusIcon,
-              text: "Listing token on DEX",
-            }
-          ],
-        },
-        {
           title: "Q4 2022",
           isLunched: false,
           checkList: [
             {
               icon: minusIcon,
-              text: "Launch on Test Net",
+              text: "Launch on test net",
+            },
+            {
+              icon: minusIcon,
+              text: "Launch on BSC",
+            },
+            {
+              icon: minusIcon,
+              text: "Start sale",
             }
           ],
-        }
+        },
       ],
     },
     {
@@ -49,20 +35,12 @@ export default {
           checkList: [
             {
               icon: minusIcon,
-              text: "Launch on BSC",
-            },
-            {
-              icon: minusIcon,
-              text: "Start sale",
-            },
-            {
-              icon: minusIcon,
               text: "Bridge to Polygon",
             },
             {
               icon: minusIcon,
               text: "Partners integration",
-            }
+            },
           ],
         },
         {

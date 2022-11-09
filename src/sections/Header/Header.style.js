@@ -23,6 +23,15 @@ const NavWrapper = styled.nav`
     }
   }
 
+  .hide {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+    white-space: nowrap;
+    font-family: "Russo One", sans-serif;
+  }
+
   .gamfi_menu_sect {
     height: 90px;
     width: 100%;
