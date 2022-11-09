@@ -18,13 +18,15 @@ const Header = () => {
     const { ethereum } = window;
     const accounts = await ethereum.request({ method: 'eth_accounts' });
     const account = accounts[0];
-    let string = accounts.toString()
-    let addressA = string.slice(0, 6)
-    let addressB = string.slice(-6)
-    let address = `${addressA}...${addressB}`
-    setWalletAddress(address)
-    setCurrentAccount(account)
-  };
+    if (accounts.length !== 0) {
+      let string = accounts.toString()
+      let addressA = string.slice(0, 6)
+      let addressB = string.slice(-6)
+      let address = `${addressA}...${addressB}`
+      setWalletAddress(address)
+      setCurrentAccount(account[0])
+     }
+  }
 
   useEffect(() => {
     checkWalletConnect();
@@ -53,16 +55,16 @@ const Header = () => {
           </div>
           <div className="gamfi_menu_right_sect gamfi_v1_menu_right_sect">
             <div className="gamfi_menu_btns">
-            {currentAccount.length > 0 ? (
-                  <div className="hide">
-                    {walletAddress}
-                  </div>
-                ) : ( 
-                <Button href="#" sm variant="white" className="connect_btn" onClick={e => handleWalletBtn(e)}>
-                  <img src={connectIcon} alt="icon" />
-                  Connect
-              </Button>)
-              }
+              {currentAccount.length > 0 ? (
+                    <div className="hide">
+                      {walletAddress}
+                    </div>
+                  ) : ( 
+                  <Button href="#" sm variant="white" className="connect_btn" onClick={e => handleWalletBtn(e)}>
+                    <img src={connectIcon} alt="icon" />
+                    Connect
+                </Button>)
+                }
               <Button href="#" sm variant='mint'>
                 White Papper
               </Button>
