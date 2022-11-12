@@ -6,7 +6,7 @@ import IntegrationStyleWrapper from "./IntegrationTwo.style";
 const IntegrationTwo = () => {
   return (
     <IntegrationStyleWrapper>
-      <div className="container">
+      <div className="container" id="integration2">
         <div className="row box">
           <div className="col-md-6">
             <div className="integration_left">

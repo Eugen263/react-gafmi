@@ -21,10 +21,13 @@ const FooterBottom = () => {
               <a href="#features">Features</a>
             </li>
             <li>
-              <a href="#roadmap">Roadmap</a>
+              <a href="#roadmaps">Roadmaps</a>
             </li>
             <li>
-              <a href="#partners">Partners</a>
+              <a href="#integration">Integration</a>
+            </li>
+            <li>
+              <a href="#integration2">Integration</a>
             </li>
           </ul>
           <div className="copyright-text">

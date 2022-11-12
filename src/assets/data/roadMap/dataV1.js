@@ -4,29 +4,6 @@ import minusIcon from "assets/images/kycimg/munies.svg";
 export default {
   data: [
     {
-      year: "2022",
-      items: [
-        {
-          title: "Q4 2022",
-          isLunched: false,
-          checkList: [
-            {
-              icon: minusIcon,
-              text: "Launch on test net",
-            },
-            {
-              icon: minusIcon,
-              text: "Launch on BSC",
-            },
-            {
-              icon: minusIcon,
-              text: "Start sale",
-            }
-          ],
-        },
-      ],
-    },
-    {
       year: "2023",
       items: [
         {
@@ -41,6 +18,14 @@ export default {
               icon: minusIcon,
               text: "Partners integration",
             },
+            {
+              icon: minusIcon,
+              text: "Launch on BSC",
+            },
+            {
+              icon: minusIcon,
+              text: "Start sale",
+            }
           ],
         },
         {
